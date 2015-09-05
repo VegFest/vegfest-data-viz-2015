@@ -1,11 +1,11 @@
 title: "VegFest: Data"
-fullurl: "http://data.vegfest.org" #used for fb share content
+fullurl: "http://vegfest.github.io/vegfest-data-viz-2015/" #used for fb share content
 fbsharetext: "A look at all of the data we've collected for the New England VegFest."
 fbshareimg: ""
 permalink: /:categories/:title
-img_dir: "/assets/img/"
-js_dir: "/assets/js/"
-css_dir: "/assets/css/"
+img_dir: "assets/img/"
+js_dir: "assets/js/"
+css_dir: "assets/css/"
 socialmedia:
   fb: VegWorcester
   twitter: VegWorcester
