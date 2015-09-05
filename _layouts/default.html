@@ -1,20 +1,35 @@
-<!DOCTYPE html>
 <html>
+  <head>
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="{{ site.title }}: {{site.tagline}}" />
+      <meta property="og:description" content="{{site.fbsharetext}}" />
+      <meta property="og:url" content="{{site.fullurl}}" />
+      <meta property="og:site_name" content="{{site.title}}" />
+      <meta property="og:image" content="{{site.fbshareimg}}" />
 
-  {% include head.html %}
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>{{ site.title }}: {{site.tagline}}</title>
+      <meta name="description" content="{{ site.title }}: {{site.tagline}}">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+      <link rel="stylesheet" href="{{ site.css_dir }}bootstrap.min.css">
+      <script src="{{ site.js_dir }}modernizr-2.6.2.min.js"></script>
+      <script src="{{site.js_dir}}jquery.min.js"></script>
+      <script src="{{site.js_dir}}bootstrap.min.js"></script>
+  </head>
 
   <body>
+  <header>
+  </header>
 
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+  {{content}}
 
-    {% include footer.html %}
+  <footer >
+  </footer>
 
   </body>
-
 </html>
